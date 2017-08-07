@@ -1,0 +1,115 @@
+
+body {
+  background-image: url(http://us.battle.net/forums/static/images/backgrounds/background-overwatch-top.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;}
+.flash {
+    letter-spacing: 2px;
+    font-family: "BigNoodleTitling";
+   animation-name: flash;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: white;}
+    to {color: black;}
+}
+
+p {
+    font-family: "BigNoodleTitling";
+    font-size: 200%;
+    color: white;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
+}
+
+.modal-body{ 
+  background: url("https://i.ytimg.com/vi/vtWTx20Lu-E/maxresdefault.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
+}
+
+li{
+    color: orange;
+    font-family: "BigNoodleTitling";
+    font-size: 150%;
+}
+
+h5{
+    font-size: 200%;
+}
+
+h2#stats_name{
+    color:orange;
+    font-family: "BigNoodleTitling";
+    letter-spacing: 3px;
+
+}
+
+div.modal-content{
+background: url("https://i.ytimg.com/vi/vtWTx20Lu-E/maxresdefault.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h5#stats_armour{
+     color: white;
+    font-family: "BigNoodleTitling";
+    font-size: 150%;
+    
+}
+h5#stats_shield{
+     color: white;
+    font-family: "BigNoodleTitling";
+    font-size: 150%;
+}
+h5#stats_difficulty{
+     color: white;
+    font-family: "BigNoodleTitling";
+    font-size: 150%;
+}
+
+h5#stats_health{
+     color: white;
+    font-family: "BigNoodleTitling";
+    font-size: 150%;
+}
+
+h1{
+    color: white;
+    font-family: "BigNoodleTitling";
+}
+
+.img-responsive{
+    opacity:.7;
+    transition: opacity .5s;
+
+}
+.img-responsive:hover{
+    opacity: 1;
+
+}
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
+.signs{
+     position: relative;
+   top: -10px;
+   right: -1200px;
+}
+
